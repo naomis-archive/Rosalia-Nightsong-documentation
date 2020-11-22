@@ -23,7 +23,8 @@ export const eventList: eventInt[] = [
       {
         name: 'help',
         description:
-          'Provides an embed containing information on the event and a list of available commands.',
+          'Provides an embed containing information on the event and a list of available commands, or provides information on [command].',
+          parameters: '[?command]'
       },
       {
         name: 'submit',
@@ -34,7 +35,7 @@ export const eventList: eventInt[] = [
       {
         name: 'view',
         description:
-          "Returns an embed containing the user's current submission.F",
+          "Returns an embed containing the user's current submission.",
       },
     ],
   },
