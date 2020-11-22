@@ -1,0 +1,36 @@
+<h1>Available Events</h1>
+<p>
+  This is the list of events that are currently available in the bot's codebase.
+  To enable an event, set the indicated environment variable. To disable the
+  event, remove that setting from your environment.
+</p>
+<details *ngFor="let event of events">
+  <summary>{{ event.name }}</summary>
+  <p class="date">
+    This event ran from {{ event.startDate }} to {{ event.endDate }} in the
+    server.
+  </p>
+  <p>{{ event.description }}</p>
+  <ul>
+    <li *ngFor="let command of event.commands">
+      <code
+        >{{ command.name
+        }}<span *ngIf="command.parameters">
+          {{ command.parameters }}</span
+        ></code
+      >
+      - <span [innerHTML]="command.description"></span>
+    </li>
+  </ul>
+</details>
+<p>
+  To participate in current events or propose new events, please join our
+  <a
+    href="https://discord.gg/yMBWgETTJu"
+    target="_blank"
+    rel="noopener noreferrer"
+    >Discord Server</a
+  >!
+</p>
+<a class="page-btn" routerLink="/default-cmd">Prev Page</a>
+<a class="page-btn" routerLink="/contribute">Next Page</a>

@@ -1,14 +1,13 @@
-# Project Name
+# Rosalia Nightsong documentation
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Project Description
+This repository contains the files for the documentation website for Rosalia Nightsong.
 
 ## Live Version
 
-This page is not yet deployed.
-<!--This page is currently deployed. [View the live website.]()-->
+This page is currently deployed. [View the live website.](https://rosalianightsong.nhcarrigan.com)
 
 ## Feedback and Bugs
 

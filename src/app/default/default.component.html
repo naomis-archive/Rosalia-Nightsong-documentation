@@ -1,0 +1,24 @@
+<h1>Default Commands</h1>
+<p>
+  These are the commands available when no event value is set in the
+  configuration. Additionally, if a command is not overridden by the event
+  settings, the default command will still run. For example, if the event has an
+  <code>about</code> command, the event version will run instead of the default
+  version. If the event does NOT have an <code>about</code> command, then the
+  default version will run.
+</p>
+<p>
+  Commands should be prefixed with <code>rosalia!</code> to run.
+  <code>rosalia!about</code> would call the about command.
+</p>
+<ul>
+  <li *ngFor="let command of commands">
+    <code
+      >{{ command.name
+      }}<span *ngIf="command.parameters"> {{ command.parameters }}</span></code
+    >
+    - <span [innerHTML]="command.description"></span>
+  </li>
+</ul>
+<a class="page-btn" routerLink="/deploy">Prev Page</a>
+<a class="page-btn" routerLink="/events">Next Page</a>
