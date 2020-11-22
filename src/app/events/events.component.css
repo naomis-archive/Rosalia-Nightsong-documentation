@@ -6,3 +6,7 @@ summary {
 .date {
   font-style: italic;
 }
+
+.bold {
+  font-weight: bold;
+}

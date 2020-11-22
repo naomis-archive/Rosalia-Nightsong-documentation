@@ -10,6 +10,10 @@
     This event ran from {{ event.startDate }} to {{ event.endDate }} in the
     server.
   </p>
+  <p class="bold">
+    Activate this event by setting the <code>EVENT_NAME</code> value to
+    <code>{{ event.envName }}</code>
+  </p>
   <p>{{ event.description }}</p>
   <ul>
     <li *ngFor="let command of event.commands">
