@@ -13,6 +13,8 @@ import { TroubleComponent } from './trouble/trouble.component';
 import { PrivacyComponent } from './privacy/privacy.component';
 import { EventsComponent } from './events/events.component';
 import { DefaultComponent } from './default/default.component';
+import { ArtContribsComponent } from './art-contribs/art-contribs.component';
+import { ArtComponent } from './art/art.component';
 
 @NgModule({
   declarations: [
@@ -27,12 +29,11 @@ import { DefaultComponent } from './default/default.component';
     PrivacyComponent,
     EventsComponent,
     DefaultComponent,
+    ArtContribsComponent,
+    ArtComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
