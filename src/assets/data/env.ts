@@ -6,18 +6,6 @@ export interface envVariableInterface {
 
 export const envVariables: envVariableInterface[] = [
   {
-    name: 'ROSALIA_GUILD',
-    optional: 'REQUIRED',
-    description:
-      'This is the Discord ID for the server Rosalia should run events in.',
-  },
-  {
-    name: 'ROSALIA_CHANNEL',
-    optional: 'REQUIRED',
-    description:
-      'This is the Discord ID for the channel Rosalia should run events and respond to commands in.',
-  },
-  {
     name: 'DISCORD_TOKEN',
     optional: 'REQUIRED',
     description:
@@ -42,13 +30,38 @@ export const envVariables: envVariableInterface[] = [
       'This tells Rosalia which Discord account is the owner. She will respond just a little differently to the owner. Leaving this blank WILL lock out some commands.',
   },
   {
-    name: 'WH_ID',
+    name: 'PREFIX',
     optional: 'OPTIONAL',
-    description: 'This is the ID for the Discord webhook.',
+    description:
+      'The prefix Rosalia will listen to for calling her commands. This should be in lowercase only - uppercase characters will cause her to ignore your commands. Defaults to "rosa!" if not set.',
+  },
+  {
+    name: 'PRODDEV',
+    optional: 'OPTIONAL',
+    description: 'Modifies the online message of the webhook log. Set to "development" to indicate a test instance, set to "production" or leave blank to indicate a live instance.'
+  },
+  {
+    name: 'ROSALIA_GUILD',
+    optional: 'REQUIRED',
+    description:
+      'This is the Discord ID for the server Rosalia should run events in.',
+  },
+  {
+    name: 'ROSALIA_CHANNEL',
+    optional: 'REQUIRED',
+    description:
+      'This is the Discord ID for the channel Rosalia should run events and respond to commands in.',
+  },
+  {
+    name: 'WH_ID',
+    optional: 'RECOMMENDED',
+    description:
+      'This is the ID for the Discord webhook. Rosalia will send connection confirmation, database confirmation, and error logging to this webhook.',
   },
   {
     name: 'WH_TOKEN',
-    optional: 'OPTIONAL',
-    description: 'This is the token for the Discord webhook.',
+    optional: 'RECOMMENDED',
+    description:
+      'This is the token for the Discord webhook. Rosalia will send connection confirmation, database confirmation, and error logging to this webhook.',
   },
 ];
