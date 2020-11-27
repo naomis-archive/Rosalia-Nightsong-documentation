@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { ArtContribsComponent } from './art-contribs/art-contribs.component';
+import { ArtComponent } from './art/art.component';
 import { BotDeployComponent } from './bot-deploy/bot-deploy.component';
 import { BotSetupComponent } from './bot-setup/bot-setup.component';
 import { ContributeComponent } from './contribute/contribute.component';
@@ -21,6 +23,8 @@ const routes: Routes = [
   { path: 'contribute', component: ContributeComponent },
   { path: 'trouble', component: TroubleComponent },
   { path: 'privacy', component: PrivacyComponent },
+  { path: 'art-contribs', component: ArtContribsComponent },
+  { path: 'art', component: ArtComponent },
 ];
 
 @NgModule({
