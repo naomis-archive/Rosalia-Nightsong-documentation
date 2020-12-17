@@ -1,6 +1,7 @@
 {
   "name": "rosalia-nightsong-documentation",
   "version": "1.1.2",
+  "author": "Nicholas Carrigan",
   "license": "AGPL-3.0-or-later",
   "scripts": {
     "ng": "ng",
