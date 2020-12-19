@@ -15,6 +15,7 @@ import { EventsComponent } from './events/events.component';
 import { DefaultComponent } from './default/default.component';
 import { ArtContribsComponent } from './art-contribs/art-contribs.component';
 import { ArtComponent } from './art/art.component';
+import { BiographyComponent } from './biography/biography.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { ArtComponent } from './art/art.component';
     DefaultComponent,
     ArtContribsComponent,
     ArtComponent,
+    BiographyComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
