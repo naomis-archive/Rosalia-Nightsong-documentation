@@ -26,4 +26,9 @@ export const defCommands: defCommandInt[] = [
       'This command returns a list of the available default commands. If [command] is provided, it returns additional information on that command.',
     parameters: '[?command]',
   },
+  {
+    name: 'rosalia',
+    description:
+      "This command returns an embed containing information on Rosalia's character.",
+  },
 ];
