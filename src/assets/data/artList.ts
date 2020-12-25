@@ -26,7 +26,7 @@ export const artList: artInt[] = [
   },
   {
     file_name: 'Moonlight 4.png',
-    art_name: 'Illusion\'s Awakening',
+    art_name: "Illusion's Awakening",
     artist: 'Moonlight',
     artist_url: 'https://www.instagram.com/moonlightkcreations/',
   },
@@ -137,5 +137,54 @@ export const artList: artInt[] = [
     art_name: 'Portrait 2',
     artist: 'Picrew.me',
     artist_url: 'https://picrew.me',
+  },
+  {
+    file_name: 'samsung1.png',
+    art_name: 'Hello',
+    artist: 'Samsung',
+    artist_url:
+      'https://www.samsung.com/au/support/mobile-devices/how-to-use-ar-emoji/',
+  },
+  {
+    file_name: 'samsung2.png',
+    art_name: 'Thinking',
+    artist: 'Samsung',
+    artist_url:
+      'https://www.samsung.com/au/support/mobile-devices/how-to-use-ar-emoji/',
+  },
+  {
+    file_name: 'samsung3.png',
+    art_name: 'Happy',
+    artist: 'Samsung',
+    artist_url:
+      'https://www.samsung.com/au/support/mobile-devices/how-to-use-ar-emoji/',
+  },
+  {
+    file_name: 'samsung4.png',
+    art_name: 'Love',
+    artist: 'Samsung',
+    artist_url:
+      'https://www.samsung.com/au/support/mobile-devices/how-to-use-ar-emoji/',
+  },
+  {
+    file_name: 'samsung5.png',
+    art_name: 'Blush',
+    artist: 'Samsung',
+    artist_url:
+      'https://www.samsung.com/au/support/mobile-devices/how-to-use-ar-emoji/',
+  },
+  {
+    file_name: 'samsung6.png',
+    art_name: 'Flirty',
+    artist: 'Samsung',
+    artist_url:
+      'https://www.samsung.com/au/support/mobile-devices/how-to-use-ar-emoji/',
+  },
+  {
+    file_name: 'samsung7.png',
+    art_name: 'Pout',
+    artist: 'Samsung',
+    artist_url:
+      'https://www.samsung.com/au/support/mobile-devices/how-to-use-ar-emoji/',
   },
 ];
