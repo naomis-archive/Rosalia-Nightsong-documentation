@@ -7,7 +7,7 @@ This repository contains the files for the documentation website for Rosalia Nig
 
 ## Live Version
 
-This page is currently deployed. [View the live website.](https://rosalianightsong.nhcarrigan.com)
+This project has been archived and is not live.
 
 ## Feedback and Bugs
 
@@ -15,7 +15,7 @@ If you have feedback or a bug report, please feel free to open a GitHub issue!
 
 ## Contributing
 
-If you would like to contribute to the project, you may create a Pull Request containing your proposed changes and we will review it as soon as we are able! Please review our [contributing guidelines](CONTRIBUTING.md) first.
+This project has been archived and is not accepting contributions.
 
 ## Code of Conduct
 
@@ -52,4 +52,4 @@ The full license terms may be viewed in the [LICENSE.md file](./LICENSE.md)
 
 ## Contact
 
-We may be contacted through our [Discord Server](http://chat.nhcarrigan.com) or via [email form](https://contact.nhcarrigan.com).
+We may be contacted through our [Chat Server](http://chat.nhcarrigan.com) or via [email form](https://contact.nhcarrigan.com).
